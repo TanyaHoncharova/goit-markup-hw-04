@@ -364,7 +364,7 @@ body {
     width:44px;
     height: 44px;
     border-radius: 50%;
-    background:green;
+    background:var(--white-color);
     margin-right: 10px;
    
 }
@@ -378,14 +378,15 @@ body {
     background-position: center;
 }
 
-.social-link :hover{
-    background: var(--accent-color);
+.social-link:hover,
+.social-link:focus{
+    background:var(--accent-color);
+   
+}
+.social-icon:hover,
+.social-icon:focus {
     fill: var(--white-color);
-    /* background-size: 20px;
-    height: 44px;
-    width: 44px;
-    border-radius: 50%; */
-
+  
 }
 .social-icon :hover {
     fill: var(--white-color);
@@ -549,10 +550,15 @@ footer {
     fill: var(--icon-color);
 }
 
-.footer-icon :hover,
-.footer-icon :focus {
+.footer-icon:hover,
+.footer-icon:focus {
     background-color: var(--accent-color);
+
+}
+.icon:hover,
+.icon:focus{
     fill: var(--white-color);
+
 }
 .form {
     display: block;
