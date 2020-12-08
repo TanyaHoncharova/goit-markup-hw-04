@@ -174,7 +174,6 @@ body {
 }
 
 .hero-btm {
-
     font: roboto;
     background-color: var(--accent-color);
     color: var(--white-color);
@@ -195,7 +194,6 @@ body {
     font-size: 16px;
     line-height: 1.875;
     letter-spacing: 0.06em;
-    /*добавить позионирование кнопки*/
 
 }
 
@@ -245,17 +243,21 @@ body {
 }
 
 .icon-antenna::before {
+    background-size: 70px;
     background-image: url(../images/icons/antenna.svg);
  
 }
 
 .icon-clock::before {
+    background-size: 70px;
    background-image: url(../images/icons/clock.svg);
 }
 .icon-diagram::before {
+    background-size: 70px;
     background-image: url(../images/icons/diagram.svg);
 }
 .icon-astronaut::before {
+    background-size: 70px;
     background-image: url(../images/icons/astronaut.svg);
 }
 
